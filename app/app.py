@@ -20,9 +20,9 @@ query = st.text_input("Enter your anime preferences eg: light hearted anime with
 
 if query:
     with st.spinner("Generating Anime Recommendation..."):
-        recommendation = pipeline.recommend(query)
+        response = pipeline.recommend(query)
         st.markdown("Anime Recommendation")
-        st.write(recommendation)
+        st.write(response)
 
 
 
