@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain_groq 
+# create vector store
+chromadb
+streamlit
+pandas
+python-dotenv
+sentence-transformers
+langchain_huggingface
+
+
